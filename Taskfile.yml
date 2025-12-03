@@ -25,3 +25,9 @@ tasks:
   e2e:
     cmds:
       - "{{.RUNNER}} python -m scripts.integration"
+  vulture:
+    cmds:
+      - "uvx vulture"
+  vulture-u:
+    cmds:
+      - "uvx vulture {{.SOURCES_MAIN}} --make-whitelist > vulture_whitelist.txt || true"
