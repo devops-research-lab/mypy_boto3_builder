@@ -35,7 +35,7 @@ Compatible with
 [Sublime Text](https://www.sublimetext.com/),
 [mypy](https://github.com/python/mypy),
 [pyright](https://github.com/microsoft/pyright),
-[uv](https://docs.astral.sh/uv/),
+[ty](https://docs.astral.sh/ty/),
 and other tools.
 
 See how it helps to find and fix potential bugs:

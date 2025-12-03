@@ -7,7 +7,7 @@
   [isort](https://github.com/PyCQA/isort) and how flexible it is
 - [mypy](https://github.com/python/mypy) developers for doing all dirty work for us
 - [pyright](https://github.com/microsoft/pyright) team for the new era of typed Python
-- [Astral](https://astral.sh/) team for [ruff](https://github.com/astral-sh/ruff), [uv](https://docs.astral.sh/uv/), and other Python tools
+- [Astral](https://astral.sh/) team for [ruff](https://github.com/astral-sh/ruff), [ty](https://docs.astral.sh/ty/), and other Python tools
 
 ## Contributors
 
