@@ -170,13 +170,14 @@ ignore = [
     "ISC001",  # implicit-str-concat
     "PERF203", # try-except-in-loop
     "PLR0904", # too-many-public-methods
+    "PLR0911", # too-many-return-statements
     "PLR0913", # too-many-arguments
     "PLR6301", # no-self-use
+    "RUF067",  # non-empty-init-module
     "S404",    # suspicious-subprocess-import
     "S603",    # subprocess-without-shell-equals-true
     "TD",      # flake8-todos
     "TRY003",  # raise-vanilla-args
-    "PLR0911", # too-many-return-statements
 ]
 fixable = ["ALL"]
 unfixable = ["B"]
