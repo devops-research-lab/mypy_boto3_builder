@@ -102,6 +102,7 @@ RUFF_IGNORE_CHECKS = (
     # ruff does not support conditional import syntax for aio libs
     "UP004",  # useless-object-inheritance
     "UP013",  # convert-typed-dict-functional-to-class
+    "RUF067",  # non-empty-init-module
 )
 
 
