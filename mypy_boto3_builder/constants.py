@@ -85,26 +85,16 @@ class TemplatePath:
     types_aiobotocore: Final = TEMPLATES_PATH / "types-aiobotocore"
     types_aiobotocore_docs: Final = TEMPLATES_PATH / "types-aiobotocore-docs"
     types_aiobotocore_service: Final = TEMPLATES_PATH / "types-aiobotocore-service"
-    types_aiobotocore_service_docs: Final = (
-        TEMPLATES_PATH / "types-aiobotocore-service-docs"
-    )
+    types_aiobotocore_service_docs: Final = TEMPLATES_PATH / "types-aiobotocore-service-docs"
     types_aiobotocore_full: Final = TEMPLATES_PATH / "types-aiobotocore-full"
     types_aiobotocore_custom: Final = TEMPLATES_PATH / "types-aiobotocore-custom"
 
     boto34_boto3_session: Final = TEMPLATES_PATH / "boto34" / "boto3_session.py.jinja2"
     boto34_boto3_service: Final = TEMPLATES_PATH / "boto34" / "boto3_service.py.jinja2"
-    boto34_aiobotocore_service: Final = (
-        TEMPLATES_PATH / "boto34" / "aiobotocore_service.py.jinja2"
-    )
-    boto34_aiobotocore_session: Final = (
-        TEMPLATES_PATH / "boto34" / "aiobotocore_session.py.jinja2"
-    )
-    boto34_aioboto3_service: Final = (
-        TEMPLATES_PATH / "boto34" / "aioboto3_service.py.jinja2"
-    )
-    boto34_aioboto3_session: Final = (
-        TEMPLATES_PATH / "boto34" / "aioboto3_session.py.jinja2"
-    )
+    boto34_aiobotocore_service: Final = TEMPLATES_PATH / "boto34" / "aiobotocore_service.py.jinja2"
+    boto34_aiobotocore_session: Final = TEMPLATES_PATH / "boto34" / "aiobotocore_session.py.jinja2"
+    boto34_aioboto3_service: Final = TEMPLATES_PATH / "boto34" / "aioboto3_service.py.jinja2"
+    boto34_aioboto3_session: Final = TEMPLATES_PATH / "boto34" / "aioboto3_session.py.jinja2"
     boto34_services: Final = TEMPLATES_PATH / "boto34" / "services.md.jinja2"
 
 
@@ -124,9 +114,5 @@ class StaticStubsPullURL:
     """
 
     types_boto3: Final = "https://api.github.com/repos/youtype/types-boto3/zipball/main"
-    types_aiobotocore: Final = (
-        "https://api.github.com/repos/youtype/types-aiobotocore/zipball/main"
-    )
-    types_aioboto3: Final = (
-        "https://api.github.com/repos/youtype/types-aioboto3/zipball/main"
-    )
+    types_aiobotocore: Final = "https://api.github.com/repos/youtype/types-aiobotocore/zipball/main"
+    types_aioboto3: Final = "https://api.github.com/repos/youtype/types-aioboto3/zipball/main"
